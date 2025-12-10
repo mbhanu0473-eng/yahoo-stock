@@ -1,0 +1,215 @@
+{
+  "markets": {
+    "us": {
+      "name": "United States",
+      "region": "America",
+      "stocks": [
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "sector": "Technology",
+          "industry": "Consumer Electronics"
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corporation",
+          "sector": "Technology",
+          "industry": "Software"
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc.",
+          "sector": "Technology",
+          "industry": "Internet Services"
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Internet Retail"
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Manufacturers"
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corporation",
+          "sector": "Technology",
+          "industry": "Semiconductors"
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc.",
+          "sector": "Technology",
+          "industry": "Internet Services"
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase & Co.",
+          "sector": "Financial",
+          "industry": "Banks"
+        },
+        {
+          "symbol": "V",
+          "name": "Visa Inc.",
+          "sector": "Financial",
+          "industry": "Credit Services"
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "sector": "Healthcare",
+          "industry": "Pharmaceuticals"
+        }
+      ],
+      "indices": [
+        {
+          "symbol": "^GSPC",
+          "name": "S&P 500",
+          "description": "Large-cap US stocks"
+        },
+        {
+          "symbol": "^DJI",
+          "name": "Dow Jones Industrial Average",
+          "description": "30 blue-chip US companies"
+        },
+        {
+          "symbol": "^IXIC",
+          "name": "NASDAQ Composite",
+          "description": "Tech-heavy US index"
+        }
+      ]
+    },
+    "india": {
+      "name": "India",
+      "region": "Asia",
+      "stocks": [
+        {
+          "symbol": "TCS.NS",
+          "name": "Tata Consultancy Services",
+          "sector": "Technology",
+          "industry": "IT Services"
+        },
+        {
+          "symbol": "INFY.NS",
+          "name": "Infosys Limited",
+          "sector": "Technology",
+          "industry": "IT Services"
+        },
+        {
+          "symbol": "WIPRO.NS",
+          "name": "Wipro Limited",
+          "sector": "Technology",
+          "industry": "IT Services"
+        },
+        {
+          "symbol": "RELIANCE.NS",
+          "name": "Reliance Industries",
+          "sector": "Energy",
+          "industry": "Oil & Gas"
+        },
+        {
+          "symbol": "HDFCBANK.NS",
+          "name": "HDFC Bank Limited",
+          "sector": "Financial",
+          "industry": "Banks"
+        },
+        {
+          "symbol": "ICICIBANK.NS",
+          "name": "ICICI Bank Limited",
+          "sector": "Financial",
+          "industry": "Banks"
+        },
+        {
+          "symbol": "AXISBANK.NS",
+          "name": "Axis Bank Limited",
+          "sector": "Financial",
+          "industry": "Banks"
+        },
+        {
+          "symbol": "SBIN.NS",
+          "name": "State Bank of India",
+          "sector": "Financial",
+          "industry": "Banks"
+        },
+        {
+          "symbol": "MARUTI.NS",
+          "name": "Maruti Suzuki India",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Manufacturers"
+        },
+        {
+          "symbol": "SUNPHARMA.NS",
+          "name": "Sun Pharmaceutical",
+          "sector": "Healthcare",
+          "industry": "Pharmaceuticals"
+        }
+      ],
+      "indices": [
+        {
+          "symbol": "^NSEI",
+          "name": "NIFTY 50",
+          "description": "Top 50 Indian stocks"
+        },
+        {
+          "symbol": "^BSESN",
+          "name": "BSE Sensex",
+          "description": "30 largest Indian companies"
+        }
+      ]
+    },
+    "commodities": {
+      "name": "Global Commodities",
+      "region": "Global",
+      "commodities": [
+        {
+          "symbol": "GC=F",
+          "name": "Gold Futures",
+          "type": "Metal"
+        },
+        {
+          "symbol": "SI=F",
+          "name": "Silver Futures",
+          "type": "Metal"
+        },
+        {
+          "symbol": "CL=F",
+          "name": "Crude Oil (WTI)",
+          "type": "Energy"
+        },
+        {
+          "symbol": "BZ=F",
+          "name": "Brent Crude Oil",
+          "type": "Energy"
+        },
+        {
+          "symbol": "NG=F",
+          "name": "Natural Gas Futures",
+          "type": "Energy"
+        },
+        {
+          "symbol": "ZW=F",
+          "name": "Wheat Futures",
+          "type": "Agricultural"
+        },
+        {
+          "symbol": "ZC=F",
+          "name": "Corn Futures",
+          "type": "Agricultural"
+        }
+      ]
+    }
+  },
+  "cache_config": {
+    "cache_ttl_minutes": 15,
+    "enabled": true,
+    "storage": "memory"
+  },
+  "api_limits": {
+    "max_requests_per_minute": 60,
+    "timeout_seconds": 30
+  }
+}
